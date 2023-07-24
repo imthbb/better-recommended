@@ -1,0 +1,10 @@
+CHANNELS = 'channel URLs'
+STORED_VIDEOS = 'stored videos.js'
+TOR_PATH = 'YOUR TOR PATH'
+YT_VID_FRONTEND = 'https://youtube.com'
+YT_CHANNEL_FRONTEND = 'https://youtube.com'
+HEADER = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:102.0) Gecko/20100101 Firefox/102.0',
+                 'Accept-Language': 'en-US,en;q=0.5', 'Referer': 'https://google.com', 'DNT': '1'}
+YT_COOKIES = {'CONSENT': 'YES+yt.999999999.en+FX+240'}
+SOCKS_PORT = '9050'
+CONTROL_PORT = '9051'

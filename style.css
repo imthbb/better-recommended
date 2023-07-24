@@ -1,0 +1,129 @@
+*{box-sizing: border-box;}
+img{user-select: none;}
+
+body{background: #121212;}
+
+.sidebar{background: #4D4D4D;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 130px;
+    height: 100%;
+}
+.sidebar-section{
+    position: absolute;
+    top: 10%;
+    width: 130px;
+    height: 295px;
+}
+.sidebar-section input{
+    appearance: none;
+    outline: none;
+    position: absolute;
+    background: #222326;
+    margin-top: 0;
+    margin-left: 0px;
+    width: 130px;
+    height: 240px;
+}
+.page-name{
+    font: 13px Arial, Helvetica, Sans-serif;
+    user-select: none;
+    color: #FFFFFF;
+    margin-top: 248px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    background: #343638;
+}
+.page-number{
+    font: 13px Arial, Helvetica, Sans-serif;
+    user-select: none;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: -7px;
+    height: 20px;
+    line-height: 20px;
+    background: #343638;
+}
+
+.videos{position: absolute; padding: 0; left: 142px;}
+.videos li{
+    float: left;
+    display: inline-block;
+    background: #262626;
+    margin-right: 4px;
+    margin-bottom: 7px;
+    width: 192px;
+    height: 216px;
+    transition-duration: 400ms;
+}
+.videos li:hover{background: #383838; transition-duration: 150ms;}
+.videos li:hover .title{color: #FFFFFF;}
+.videos li:hover .channel{color: #A3D4FF;}
+.videos li:hover .date{color: #E0E0E0;}
+.videos li:hover .views{color: #E0E0E0;}
+.content{position: absolute;}
+
+.thumbnail{position: absolute; width: 192px; height: 108px;}
+
+.duration-bubble{
+    user-select: none;
+    position: absolute;
+    background: rgba(14,14,14,.93);
+    top: 91px;
+    right: -1px;
+    width: 54px;
+    height: 15px;
+}
+.duration{
+    font: 12px Arial, Helvetica, Sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.title{
+    user-select: text;
+    font: 12px Helvetica, Arial, Sans-serif;
+    line-height: 1.4em;
+    word-wrap: break-word;
+    overflow: hidden;
+    color: #F2F2F2;
+    margin-top: 112px;
+    margin-left: 3px;
+    width: 186px;
+    height: 49px;
+}
+
+.channel{
+    position: absolute;
+    user-select: text;
+    font: 12px Helvetica, Arial, Sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: '..';
+    color: #A1CBF0;
+    margin-top: 3px;
+    margin-left: 5px;
+    max-width: 160px;
+}
+.channel:hover{text-decoration: underline;}
+
+.date{
+    position: absolute;
+    user-select: text;
+    font: 12px Helvetica, Arial, Sans-serif;
+    color: #8F8F8F;
+    left: 5px;
+    top: 186px;
+}
+.views{
+    position: absolute;
+    user-select: text;
+    font: 12px Helvetica, Arial, Sans-serif;
+    color: #8F8F8F;
+    right: 2px;
+    top: 186px;
+}
