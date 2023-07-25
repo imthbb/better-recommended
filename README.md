@@ -26,7 +26,7 @@ If you want to use another port, you'll also have to change the value
 of `CONTROL_PORT` in `settings.py`.  
 # How to use:  
 Enter Youtube/Twitch/Bitchute URLs of EXISTING channels in `channel URLs`.  
-Those will be the "subscriptions".  
+Those are the "subscriptions".  
 Other things that aren't Youtube/Twitch/Bitchute URLs could be written as well.  
   
 Run `scrape.py` to get results.  
@@ -37,6 +37,6 @@ Clicking tall space in sidebar changes between subscriptions and recommendations
 <br />
 If the script raises an error, Tor has to be killed manually.  
 
-That could be done through terminal or system monitor.  
+That could be done through a terminal or a system monitor.  
   
 Other Tor processes, such as the Tor browser, can't run while the script is running.
