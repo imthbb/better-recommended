@@ -33,7 +33,7 @@ Run `scrape.py` to get results.
   
 Open `vids.html`.  
 Clicking tall space in sidebar changes between subscriptions and recommendations.  
-Scrolling changes between pages.  
+Scrolling changes pages.  
   
 If the script raises an error, Tor has to be killed manually.  
 That could be done through a terminal or a system monitor.  
