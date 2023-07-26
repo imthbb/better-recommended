@@ -36,7 +36,6 @@ Clicking tall space in sidebar changes between subscriptions and recommendations
 Scrolling changes between pages.  
   
 If the script raises an error, Tor has to be killed manually.  
-
 That could be done through a terminal or a system monitor.  
   
 Other Tor processes, such as the Tor browser, can't run while the script is running.
