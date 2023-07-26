@@ -3,9 +3,11 @@
 # How to setup on Linux:  
 #1  
 Install the Deb package.  
+  
 #2  
 `pip install stem`  
 `pip install pysocks`  
+  
 #3  
 Tor must be installed.  
   
