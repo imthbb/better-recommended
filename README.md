@@ -32,9 +32,9 @@ Other things that aren't Youtube/Twitch/Bitchute URLs could be written as well.
 Run `scrape.py` to get results.  
   
 Open `vids.html`.  
-Clicking tall space in sidebar changes between subscriptions and recommendations.
-
-<br />
+Clicking tall space in sidebar changes between subscriptions and recommendations.  
+Scrolling changes between pages.  
+  
 If the script raises an error, Tor has to be killed manually.  
 
 That could be done through a terminal or a system monitor.  
